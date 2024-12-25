@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #ffffff;
+}
+
+.scanner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 25px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    backdrop-filter: blur(10px); /* Add glass effect */
+}
+
+.scanner-box h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.scanner-box p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.video-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 25px 0;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+#start-scan {
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+#start-scan:hover {
+    background-color: #ff2f2f;
+}
+
+.result h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+#result-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a4a4a;
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+}
